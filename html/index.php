@@ -12,7 +12,7 @@
 		<form method="get">
 			<div style="text-align:right;margin:auto;width:325px;">
 				<?php
-					echo 'IP/Hostname:&ensp;<input name="ip" type="text" size="20" maxlength="15" value="' . $_GET["ip"] . '"><br />';
+					echo 'IP/Hostname:&ensp;<input name="ip" type="text" size="20" value="' . $_GET["ip"] . '"><br />';
 					echo 'Port:&ensp;<input name="port" type="number" size="20" maxlength="5" value="' . $_GET["port"] . '"><br />';
 				?>
 				<div style="width:94px;margin:auto;"><input type="submit" value="Get Info!"></div>
